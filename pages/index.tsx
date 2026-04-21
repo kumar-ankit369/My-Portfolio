@@ -1,0 +1,43 @@
+import dynamic from 'next/dynamic';
+
+const Navigation = dynamic(() => import('../components/Navigation'), { ssr: false });
+const Hero = dynamic(() => import('../components/Hero'), { ssr: false });
+const HeroParallaxDemo = dynamic(() => import('../components/hero-parallax-demo'), { ssr: false });
+const FeaturedProjects = dynamic(() => import('../components/FeaturedProjects'), { ssr: false });
+const Skills = dynamic(() => import('../components/Skills'), { ssr: false });
+const Achievements = dynamic(() => import('../components/Achievements'), { ssr: false });
+const GlowingEffectDemo = dynamic(() => import('../components/glowing-effect-demo'), { ssr: false });
+const About = dynamic(() => import('../components/About'), { ssr: false });
+const Contact = dynamic(() => import('../components/Contact'), { ssr: false });
+const Footer = dynamic(() => import('../components/Footer'), { ssr: false });
+
+export default function Home() {
+  return (
+    <main className="bg-dark-950">
+      <Navigation />
+      <HeroParallaxDemo />
+      <Hero />
+      <FeaturedProjects />
+      <Skills />
+      
+      {/* Integrated Awards & Achievements Section replacing the old <Achievements /> */}
+      <section className="py-20 md:py-32 bg-dark-900 border-t border-white/5 relative z-10" id="achievements">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+              Awards & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Achievements</span>
+            </h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Recognizing my contributions, hackathon wins, and certifications in tech and community.
+            </p>
+          </div>
+          <GlowingEffectDemo />
+        </div>
+      </section>
+
+      <About />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-dark-950 text-gray-100;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neon-cyan rounded-full;
+  background: linear-gradient(180deg, #00d9ff 0%, #b537f2 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply brightness-110;
+}
+
+/* Smooth transitions */
+@layer components {
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .glow-border {
+    @apply border border-neon-cyan/30 rounded-lg;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+  }
+
+  .glow-text {
+    background: linear-gradient(135deg, #00d9ff 0%, #b537f2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-semibold transition-smooth;
+    background: linear-gradient(135deg, #00d9ff 0%, #b537f2 100%);
+    @apply text-dark-950 hover:shadow-lg hover:shadow-neon-cyan/50;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-semibold border border-neon-cyan/50 transition-smooth;
+    @apply bg-dark-900/50 text-neon-cyan hover:bg-neon-cyan/10 hover:border-neon-cyan;
+  }
+}
