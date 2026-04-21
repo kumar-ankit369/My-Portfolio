@@ -56,7 +56,7 @@ export default function Hero() {
             <Github size={20} className="group-hover:scale-110 transition-transform" />
           </a>
           <a
-            href="https://linkedin.com/in/kumar-ankit"
+            href="https://www.linkedin.com/in/kumar-ankit-019b73290"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-lg border border-neon-pink/30 flex items-center justify-center text-neon-pink hover:bg-neon-pink/10 transition-smooth group"
