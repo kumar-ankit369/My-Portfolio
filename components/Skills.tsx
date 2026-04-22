@@ -7,18 +7,18 @@ const skillCategories = [
     color: "neon-cyan",
   },
   {
-    category: "AI & ML",
-    skills: ["Machine Learning", "Deep Learning", "Generative AI", "NLP", "LangChain", "LLMs"],
+    category: "Libraries & Frameworks",
+    skills: ["Pandas", "NumPy", "Scikit-learn", "Hugging Face", "Flask", "Next.js", "Node.js", "Express", "TensorFlow", "PyTorch", "React", "TailwindCSS"],
     color: "neon-pink",
   },
   {
-    category: "Web Development",
-    skills: ["React", "Next.js", "MERN Stack", "Flask", "TailwindCSS", "REST APIs"],
+    category: "Technologies & AI",
+    skills: ["Machine Learning", "Deep Learning", "Generative AI", "NLP", "LangChain", "LLMs", "RAG", "LoRA", "MERN Stack"],
     color: "neon-purple",
   },
   {
     category: "DevOps & Tools",
-    skills: ["Docker", "Kubernetes", "GitHub", "MongoDB", "Power BI", "Tableau"],
+    skills: ["Docker", "Kubernetes", "GitHub", "Git", "MongoDB", "Power BI", "Tableau", "VS Code"],
     color: "neon-lime",
   },
 ];

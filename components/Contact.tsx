@@ -50,7 +50,9 @@ export default function Contact() {
           <p className="text-gray-400 mb-6">Download my comprehensive resume to see my complete professional background, projects, and achievements.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/api/download-resume"
+              href="/Resume_Kumar_Ankit.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary inline-flex items-center justify-center gap-2"
               title="Download as PDF"
             >

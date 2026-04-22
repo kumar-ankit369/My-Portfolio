@@ -1,37 +1,37 @@
 "use client";
 
-import { Award, Trophy, Shield, Star, Medal } from "lucide-react";
+import { CheckCircle, Code, Server, BookOpen } from "lucide-react";
 import { GlowingEffect } from "./ui/glowing-effect";
 
-export default function GlowingEffectDemo() {
+export default function CertificatesDemo() {
   return (
     <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-2 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/7]"
-        icon={<Star className="h-5 w-5 text-neon-cyan dark:text-cyan-400" />}
-        title="5th Place, ThirdBell Competition"
-        description="Mood Indigo, IIT Bombay • Dec '24"
+        icon={<Code className="h-5 w-5 text-neon-cyan dark:text-cyan-400" />}
+        title="Python for Data Science, AI & Development"
+        description="IBM • Nov '24"
       />
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:1/7/2/13]"
-        icon={<Trophy className="h-5 w-5 text-neon-pink dark:text-pink-400" />}
-        title="SIH Winner (College Level)"
-        description="Acharya Institute • May '25"
+        icon={<Server className="h-5 w-5 text-neon-pink dark:text-pink-400" />}
+        title="Introduction to Generative AI"
+        description="cloudskillsboost.google • Feb '25"
       />
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:2/1/3/7]"
-        icon={<Medal className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />}
-        title="4th Place - Srujana Hackathon"
-        description="Chanakya University • Oct '25"
+        icon={<CheckCircle className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />}
+        title="Responsive Web Design"
+        description="freeCodeCamp • Apr '25"
       />
 
       <GridItem
         area="md:[grid-area:2/7/3/13] xl:[grid-area:2/7/3/13]"
-        icon={<Award className="h-5 w-5 text-purple-500 dark:text-purple-400" />}
-        title="Ranked 62nd in NEC 2025"
-        description="E-Cell, IIT Bombay • Nov '25"
+        icon={<BookOpen className="h-5 w-5 text-purple-500 dark:text-purple-400" />}
+        title="Data Science Professional Certificate"
+        description="KNIME • Aug '25"
       />
     </ul>
   );
@@ -73,4 +73,4 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
       </div>
     </li>
   );
-};
+}

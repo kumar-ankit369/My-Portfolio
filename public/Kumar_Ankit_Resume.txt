@@ -1,131 +1,96 @@
-KUMAR ANKIT
-+91-8210480527 | anklivetolearn@gmail.com | Bangalore, Karnataka, India
-GitHub | LinkedIn | Portfolio
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+Kumar Ankit
++918210480527 ◇ anklivetolearn@gmail.com ◇ Bangalore, Karnataka, India ◇ GitHub ◇ LinkedIn ◇ Portfolio
 PROFESSIONAL SUMMARY
-
-Computer Science student (Data Science specialization) at Acharya Institute of Technology with expertise in AI, Machine Learning, Deep Learning, and Full-Stack Development. Passionate about solving real-world problems using Generative AI, privacy-preserving ML, and innovative web technologies.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+Aspiring Data Scientist and AI/ML Engineer with hands-on experience building end-to-end machine learning pipelines,
+LLM fine-tuning (LoRA, RAG), and full-stack AI applications. Proficient in Python, TensorFlow, PyTorch, and the
+MERN stack, with strong foundations in data analysis, deep learning, and generative AI. Proven problem-solver—SIH
+College Winner and 4th place at Srujana Hackathon—passionate about leveraging AI to solve real-world problems in
+education, biodiversity, and privacy-preserving ML.
 TECHNICAL SKILLS
-
-Languages:
-  C, C++, Python, Java, HTML, JavaScript, SQL
-
-Technologies & Tools:
-  Machine Learning | Deep Learning | Generative AI | NLP | LangChain | LLMs
-  Next.js | MERN Stack | React | Flask | FastAPI | TailwindCSS
-  Docker | Kubernetes | MongoDB | Power BI | Tableau | GitHub
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-PROFESSIONAL EXPERIENCE
-
-Internship | Teachnook (Teachscape Online Learning Services Pvt Ltd)
-Sep 2024 - Oct 2024 | Bangalore, India
-
-Leadership Role | President, Acharya Institute - Sahitya Club
-Jul 2024 - Present | Bangalore
-
-Spearheading literary and cultural activities including poetry competitions, rap battles, mushaira, and stand-up comedy shows during college fest Habba.
+Languages: C, C++, Python, Java, HTML, JavaScript, SQL
+Technologies & Tools : Machine Learning, Deep Learning, Generative AI, MERN Stack, Docker, Kubernetes, Power
+BI, Tableau, NLP, MongoDB, LangChain, LLMs, Git, RAG, LoRA, VS Code, GitHub
+Libraries & Frameworks: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, Hugging Face, Flask, Next.js, Node.js,
+Express, TensorFlow, PyTorch
+WORK EXPERIENCE
+Data Science Intern
+Teachnook (Teachscape Online Learning Services Private Limited)
+Sep '24 — Oct '24
+Bangalore, India
+Worked on real-world data science problems using Python, Pandas, NumPy, and Scikit-learn, performing data
+cleaning, EDA, and predictive modeling.
+Built and evaluated ML models (regression & classification), improving prediction accuracy through feature
+engineering and hyperparameter tuning.
+Visualized insights using Matplotlib and Seaborn to derive data-driven conclusions and present findings to mentors.
+Collaborated in an agile team environment, gaining exposure to Git-based workflows and industry best practices.
+EXTRA-CURRICULAR ACTIVITIES
+President, Acharya Institute - Sahitya Club
+Bangalore
+Jul '24 — Present
+Spearheading literary and cultural activities including poetry competitions, rap battles, mushaira, and stand-up
+comedy shows during college fest Habba.
 Successfully handled event planning, budgeting, and sponsorships, ensuring high participation and engagement.
 Promoted creativity and teamwork, strengthening the cultural footprint of the institute.
-
-Additional Responsibilities:
-  • Handled artist management team (25th VTU Youth Fest, Acharya Institute)
-  • Coordinated office department (Srishti Innovation Exchange 2025, ABVP)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-MAJOR PROJECTS
-
-1. AI-Driven Marine Biodiversity Intelligence Platform
-   Developed an AI-based system integrating environmental (SST, chlorophyll, DO) and eDNA datasets to predict ecosystem stress, habitat risk, and fisheries hotspots.
-   
-   Key Achievements:
-   • Built biodiversity modeling pipeline and GIS-based dashboard
-   • Implemented juvenile risk mapping and early-warning alerts
-   • Reduced juvenile catch risk through predictive analytics
-   • Enabled data-driven sustainable fisheries planning
-
-2. SmartClass AI – Agentic AI-Based Classroom Automation System
-   Built a full-stack system using React, Tailwind CSS, and Flask/FastAPI enabling automated attendance and real-time classroom analytics.
-   
-   Key Achievements:
-   • Implemented face recognition-based attendance system
-   • Built RAG-based AI quiz generation pipeline using LLM APIs
-   • Generated MCQs from uploaded PDFs for content-driven learning
-   • Designed REST APIs and integrated frontend-backend workflows
-   • Created leaderboard, quiz evaluation, and student performance tracking
-
-3. Fed-EADP-LoRA: Privacy-Preserving Federated Fine-Tuning for LLMs
-   Built a federated learning pipeline with LoRA-based parameter-efficient fine-tuning for large language models.
-   
-   Key Achievements:
-   • Implemented entity-aware differential privacy with selective noise injection
-   • Trained LLMs across decentralized clients without sharing raw data
-   • Simulated privacy attacks (membership inference) and quantified trade-offs
-   • Achieved secure training with minimal performance degradation using ε-budget
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-AWARDS & RECOGNITION
-
-SIH Winner (College Level) | Acharya Institute
-May 2025
-
-4th Place - Srujana Hackathon | Chanakya University
-Oct 2025
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+Office Department Coordinator, Srishti Innovation Exchange 2025, ABVP
+Managed administrative coordination and operations for the innovation exchange event.
+Artist Management Team, 25th VTU Youth Fest
+Coordinated artist logistics and on-ground management for an inter-college cultural event.
+PROJECTS
+Acharya Institute
+May '25
+Acharya Institute
+Apr '26
+AI-Driven Marine Biodiversity Intelligence Platform
+Developed an AI-based system integrating environmental (SST, chlorophyll, DO) and eDNA datasets to predict
+ecosystem stress, habitat risk, and fisheries hotspots.
+Built biodiversity modeling pipeline and GIS-based dashboard for juvenile risk mapping, early-warning alerts, and
+decision-support visualization.
+Enabled data-driven sustainable fisheries planning by reducing juvenile catch risk and achieving 85%+ accuracy in
+hotspot prediction across 500+ marine data points.
+SmartClass AI – Agentic AI-Based Classroom Automation System
+Built a full-stack system using React, Tailwind CSS, and Flask/FastAPI, enabling automated attendance via face
+recognition with 95%+ accuracy for 100+ student profiles.
+Implemented a RAG-based AI quiz generation pipeline using LLM APIs to generate 10+ contextually accurate
+MCQs per PDF, reducing teacher prep time by 70%.
+Designed REST APIs and integrated frontend-backend workflows for leaderboard, quiz evaluation, and student
+performance tracking.
+Fed-EADP-LoRA: Privacy-Preserving Federated Fine-Tuning for LLMs
+Built a federated learning pipeline with LoRA-based parameter-efficient fine-tuning to train large language models
+across decentralized clients without sharing raw data.
+Implemented entity-aware differential privacy with selective noise injection to protect sensitive information while
+preserving model utility.
+Simulated privacy attacks (membership inference) and quantified trade-offs using ε-budget, achieving secure training
+with minimal performance degradation.
+AWARDS & ACHIEVEMENTS
+5th Place, ThirdBell Competition, Mood Indigo
+IIT Bombay
+SIH Winner (College Level)
+Acharya Institute
+4th Place at Srujana Hackathon
+Chanakya University
+Ranked 62nd in NEC 2025
+E-Cell , IIT Bombay
 CERTIFICATIONS
-
-NEC 2025 | E-Cell, IIT Bombay
-Nov 2025
-
-MOOD INDIGO | IIT Bombay
-Dec 2024
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+Dec '24
+May '25
+Oct '25
+Nov '25
+Python for Data Science, AI & Development, IBM
+Introduction to Generative AI, cloudskillsboost.google
+Responsive Web Design, freeCodeCamp
+Data Science Professional Certificate, KNIME
 EDUCATION
-
-Bachelor of Engineering in Computer Science (Data Science)
-Acharya Institute of Technology, Bangalore
-Currently Pursuing
-
-12th (PCM) | Vidya Sanskar School, Patna
-Apr 2022
-
-10th | Gyanodya Gurutkul, Patna
-May 2020
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-CORE COMPETENCIES
-
-✓ Artificial Intelligence & Machine Learning
-✓ Deep Learning & Generative AI
-✓ Privacy-Preserving ML & Federated Learning
-✓ Full-Stack Web Development
-✓ Natural Language Processing (NLP)
-✓ Data Analysis & Visualization
-✓ Cloud Technologies & DevOps
-✓ Project Leadership & Event Management
-✓ Problem Solving & Technical Innovation
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-CONTACT & SOCIAL
-
-Email: anklivetolearn@gmail.com
-Phone: +91-8210480527
-GitHub: [Your GitHub Profile]
-LinkedIn: [Your LinkedIn Profile]
-Portfolio: [Your Portfolio Website]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Nov '24
+Feb '25
+Apr '25
+Aug '25
+Bachelor of Engineering in Computer Science (Data Science), Acharya Institute of Technology ,
+Bangalore
+CGPA 8.64
+12th in PCM, Vidya Sanskar School , Patna
+Per: 75
+10th, Gyanodya Gurukul , Patna
+Per: 87
+Sep '23 — Aug '27
+Apr '22
+May '20

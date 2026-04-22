@@ -37,7 +37,9 @@ export default function Hero() {
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="/api/download-resume"
+            href="/Resume_Kumar_Ankit.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-secondary flex items-center justify-center gap-2"
             title="Download as PDF"
           >
