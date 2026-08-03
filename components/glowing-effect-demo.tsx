@@ -1,76 +1,78 @@
 "use client";
 
-import { Award, Trophy, Shield, Star, Medal } from "lucide-react";
+import { Award, Trophy, Medal, Star } from "lucide-react";
 import { GlowingEffect } from "./ui/glowing-effect";
+
+const achievements = [
+  {
+    title: "SIH Winner (College Level)",
+    organization: "Acharya Institute",
+    date: "May 2025",
+    description: "Secured 1st position at college level selection for Smart India Hackathon.",
+    icon: <Trophy className="h-6 w-6 text-neon-pink" />,
+  },
+  {
+    title: "4th Place — Srujana Hackathon",
+    organization: "Chanakya University",
+    date: "Oct 2025",
+    description: "Placed 4th in inter-university state level tech competition.",
+    icon: <Medal className="h-6 w-6 text-yellow-400" />,
+  },
+  {
+    title: "5th Place — ThirdBell Competition",
+    organization: "Mood Indigo, IIT Bombay",
+    date: "Dec 2024",
+    description: "Ranked 5th nationwide in cultural event competition at Asia's largest college fest.",
+    icon: <Star className="h-6 w-6 text-neon-cyan" />,
+  },
+  {
+    title: "Ranked 62nd in NEC 2025",
+    organization: "E-Cell, IIT Bombay",
+    date: "Nov 2025",
+    description: "Achieved national ranking of 62 out of hundreds of participants across India.",
+    icon: <Award className="h-6 w-6 text-neon-purple" />,
+  },
+];
 
 export default function GlowingEffectDemo() {
   return (
-    <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-2 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
-      <GridItem
-        area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/7]"
-        icon={<Star className="h-5 w-5 text-neon-cyan dark:text-cyan-400" />}
-        title="5th Place, ThirdBell Competition"
-        description="Mood Indigo, IIT Bombay • Dec '24"
-      />
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {achievements.map((item, index) => (
+        <div
+          key={index}
+          className="relative min-h-[12rem] rounded-2xl border border-white/10 p-2 md:p-3 bg-dark-950/80 backdrop-blur-sm shadow-xl hover:border-white/20 transition-smooth group"
+        >
+          <GlowingEffect
+            spread={40}
+            glow={true}
+            disabled={false}
+            proximity={64}
+            inactiveZone={0.01}
+          />
+          <div className="relative flex h-full flex-col justify-between p-6 rounded-xl bg-dark-950/90">
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <div className="w-fit rounded-lg border border-white/10 bg-white/5 p-2.5">
+                  {item.icon}
+                </div>
+                <span className="text-xs px-3 py-1 rounded-full bg-white/5 text-gray-400 border border-white/10 font-medium">
+                  {item.date}
+                </span>
+              </div>
 
-      <GridItem
-        area="md:[grid-area:1/7/2/13] xl:[grid-area:1/7/2/13]"
-        icon={<Trophy className="h-5 w-5 text-neon-pink dark:text-pink-400" />}
-        title="SIH Winner (College Level)"
-        description="Acharya Institute • May '25"
-      />
-
-      <GridItem
-        area="md:[grid-area:2/1/3/7] xl:[grid-area:2/1/3/7]"
-        icon={<Medal className="h-5 w-5 text-yellow-500 dark:text-yellow-400" />}
-        title="4th Place - Srujana Hackathon"
-        description="Chanakya University • Oct '25"
-      />
-
-      <GridItem
-        area="md:[grid-area:2/7/3/13] xl:[grid-area:2/7/3/13]"
-        icon={<Award className="h-5 w-5 text-purple-500 dark:text-purple-400" />}
-        title="Ranked 62nd in NEC 2025"
-        description="E-Cell, IIT Bombay • Nov '25"
-      />
-    </ul>
-  );
-}
-
-interface GridItemProps {
-  area: string;
-  icon: React.ReactNode;
-  title: string;
-  description: React.ReactNode;
-}
-
-const GridItem = ({ area, icon, title, description }: GridItemProps) => {
-  return (
-    <li className={`min-h-[14rem] list-none ${area}`}>
-      <div className="relative h-full rounded-2xl border border-white/10 p-2 md:rounded-3xl md:p-3">
-        <GlowingEffect
-          spread={40}
-          glow={true}
-          disabled={false}
-          proximity={64}
-          inactiveZone={0.01}
-        />
-        <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl bg-dark-950/80 p-6 md:p-6 shadow-xl backdrop-blur-sm shadow-[#2D2D2D]/20">
-          <div className="relative flex flex-1 flex-col justify-between gap-3">
-            <div className="w-fit rounded-lg border border-white/10 bg-white/5 p-2">
-              {icon}
-            </div>
-            <div className="space-y-3">
-              <h3 className="-tracking-4 pt-0.5 font-sans text-xl/[1.375rem] font-semibold text-balance text-white md:text-2xl/[1.875rem]">
-                {title}
+              <h3 className="font-sans text-xl font-bold text-white mb-1 group-hover:text-neon-cyan transition-smooth">
+                {item.title}
               </h3>
-              <h2 className="font-sans text-sm/[1.125rem] text-gray-400 md:text-base/[1.375rem] [&_b]:md:font-semibold [&_strong]:md:font-semibold">
-                {description}
-              </h2>
+              <p className="text-neon-cyan text-xs font-medium mb-2">
+                {item.organization}
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {item.description}
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </li>
+      ))}
+    </div>
   );
-};
+}

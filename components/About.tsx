@@ -1,51 +1,107 @@
-
+import { GraduationCap, Award, Briefcase, BookOpen } from "lucide-react";
 
 export default function About() {
   return (
     <section id="about" className="py-20 px-6 bg-gradient-to-b from-dark-950 to-dark-900">
-      <div className="max-w-4xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left - Content */}
-          <div className="animate-slide-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="glow-text">Me</span>
-            </h2>
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            About <span className="glow-text">Me</span>
+          </h2>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            Background, education, and technical journey
+          </p>
+        </div>
 
-            <p className="text-gray-400 text-lg mb-4 leading-relaxed">
-              I'm a Computer Science undergrad (Data Science specialization) at Acharya Institute of Technology, Bangalore. Passionate about AI, Machine Learning, and building full-stack applications that solve real-world problems.
+        <div className="grid md:grid-cols-12 gap-8 items-start">
+          {/* Main Bio - Left 7 columns */}
+          <div className="md:col-span-7 space-y-6 text-gray-300 text-base md:text-lg leading-relaxed animate-slide-up">
+            <p>
+              I am a <strong className="text-white font-semibold">Final-year B.Tech Computer Science (Data Science)</strong> student at Acharya Institute of Technology, Bangalore (under VTU), graduating in 2027 with a CGPA of <span className="text-neon-cyan font-bold">8.64</span>.
             </p>
 
-            <p className="text-gray-400 text-lg mb-4 leading-relaxed">
-              My expertise spans Generative AI, Federated Learning, and privacy-preserving ML techniques. I've worked on projects ranging from marine biodiversity intelligence to AI-powered classroom automation systems.
+            <p>
+              Currently working as a <strong className="text-white font-semibold">Full Stack Developer Intern</strong> at Emertxe Information Technologies, with prior <strong className="text-white font-semibold">Data Science internship</strong> experience at Teachnook. I build full-stack web applications and applied AI/ML systems — spanning LLM fine-tuning, RAG pipelines, and production-style data platforms.
             </p>
 
-            <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              As President of Acharya Institute's Sahitya Club, I drive cultural initiatives and creative collaborations. I'm actively involved in hackathons, tech events, and open-source contributions.
+            <p>
+              Beyond technical engineering, I serve as <strong className="text-white font-semibold">Club President of Acharya Sahitya</strong> (two years), leading literary and cultural events at the institute. I am pursuing entry-level roles in ML/Data Science and software development.
             </p>
 
-            <div className="flex gap-6">
-              <div>
-                <div className="text-3xl font-bold glow-text">3</div>
-                <div className="text-gray-400">Major Projects</div>
+            {/* Quick Metrics */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/10">
+              <div className="bg-dark-900/60 p-4 rounded-xl border border-white/5 text-center">
+                <div className="text-2xl font-bold glow-text">8.64</div>
+                <div className="text-gray-400 text-xs mt-1">CGPA</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold glow-text">2</div>
-                <div className="text-gray-400">Awards Won</div>
+              <div className="bg-dark-900/60 p-4 rounded-xl border border-white/5 text-center">
+                <div className="text-2xl font-bold glow-text">4</div>
+                <div className="text-gray-400 text-xs mt-1">Major AI/Web Apps</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold glow-text">∞</div>
-                <div className="text-gray-400">Learning Journey</div>
+              <div className="bg-dark-900/60 p-4 rounded-xl border border-white/5 text-center">
+                <div className="text-2xl font-bold glow-text">2</div>
+                <div className="text-gray-400 text-xs mt-1">Internships</div>
+              </div>
+              <div className="bg-dark-900/60 p-4 rounded-xl border border-white/5 text-center">
+                <div className="text-2xl font-bold glow-text">7+</div>
+                <div className="text-gray-400 text-xs mt-1">Certifications</div>
               </div>
             </div>
           </div>
 
-          {/* Right - Image Placeholder */}
-          <div className="relative h-96 rounded-xl glow-border bg-dark-900/50 flex items-center justify-center overflow-hidden group">
-            <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/20 to-neon-purple/20 opacity-0 group-hover:opacity-100 transition-smooth"></div>
-            <div className="text-center">
-              <div className="text-6xl mb-4">👨‍💻</div>
-              <p className="text-neon-cyan text-sm">Kumar Ankit</p>
-              <p className="text-gray-400 text-xs">CS (Data Science) | Bangalore</p>
+          {/* Education Card & Profile Box - Right 5 columns */}
+          <div className="md:col-span-5 space-y-6 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            {/* Education Card */}
+            <div className="glow-border bg-dark-900/80 p-6 rounded-xl relative">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="p-3 rounded-lg bg-neon-cyan/10 border border-neon-cyan/30 text-neon-cyan">
+                  <GraduationCap size={24} />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-white">Education</h3>
+                  <p className="text-gray-400 text-xs">Degree & Academic Standing</p>
+                </div>
+              </div>
+
+              <div className="space-y-2 border-t border-white/10 pt-4">
+                <h4 className="text-lg font-bold text-white">Acharya Institute of Technology</h4>
+                <p className="text-neon-cyan text-sm font-medium">
+                  Bachelor of Engineering, Computer Science (Data Science)
+                </p>
+                <div className="flex justify-between items-center text-xs text-gray-400 pt-2">
+                  <span>Bangalore, Karnataka (VTU)</span>
+                  <span className="text-neon-pink font-semibold">Sep 2023 – Aug 2027</span>
+                </div>
+                <div className="mt-3 inline-block px-3 py-1 bg-neon-cyan/10 text-neon-cyan border border-neon-cyan/30 rounded-md text-xs font-semibold">
+                  CGPA: 8.64 / 10
+                </div>
+              </div>
+            </div>
+
+            {/* General Highlights */}
+            <div className="glow-border bg-dark-900/40 p-6 rounded-xl space-y-3">
+              <h4 className="font-bold text-white flex items-center gap-2">
+                <BookOpen size={18} className="text-neon-purple" />
+                Focus Areas
+              </h4>
+              <ul className="text-xs text-gray-400 space-y-2">
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neon-cyan"></span>
+                  LLM Fine-Tuning (LoRA, PEFT) & Differential Privacy
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neon-pink"></span>
+                  RAG Systems & Generative AI Integration (Gemini, LangChain)
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neon-purple"></span>
+                  Full-Stack MERN & FastAPI Web Development
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neon-lime"></span>
+                  Salesforce CRM & Agentforce Champion
+                </li>
+              </ul>
             </div>
           </div>
         </div>
